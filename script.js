@@ -9,8 +9,8 @@ const udpSocket = dgram.createSocket('udp4');
 
 // PID Controller Parameters
 const PID = {
-    Kp: 1.7,
-    Ki: 0.03,
+    Kp: 5,
+    Ki: 0.6,
     Kd: 0.17,
     min_pwm: 5,
     max_pwm: 50,
